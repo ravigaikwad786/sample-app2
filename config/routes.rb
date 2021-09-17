@@ -7,6 +7,16 @@ Rails.application.routes.draw do
 
   get '/signup' ,to: 'users#new'
 
+  get '/login' , to: 'session#new'
+  post '/login' , to: 'session#create'
+  get '/logout' , to: 'session#destroy'
+
+  resources :users
+  #get 'session/new'
+    
+
+
+
   # get 'users/new'
   
   # # get 'static_pages/home'
