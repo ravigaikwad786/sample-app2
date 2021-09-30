@@ -62,3 +62,5 @@ gem 'faker'
 gem 'will_paginate'
 
 gem 'bootstrap-will_paginate'
+
+gem 'pry'
